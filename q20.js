@@ -1,8 +1,8 @@
 // How do you clone an object?
 
 
-var obj = {a: 1 ,b: 2}
-var objclone = Object.assign({},obj);
+// var obj = {a: 1 ,b: 2}
+// var objclone = Object.assign({},obj);
 // Now the value of objclone is {a: 1 ,b: 2} but points to a different object than obj.
 
 // Note the potential pitfall, though: Object.assign() will just do a shallow copy, not a deep copy. 
